@@ -10,7 +10,7 @@ import com.example.demo.repository.HumanInfoRepository;
 @Service
 public class HumanInfoService {
 
-	/* デモリポジトリ */
+	/* humanリポジトリ */
 	@Autowired
 	protected HumanInfoRepository repository;
 
