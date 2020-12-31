@@ -12,7 +12,7 @@ import com.example.demo.service.HumanInfoService;
 @RequestMapping("api")
 public class HumanInfoController {
 
-	/* デモサービス */
+	/* Humanサービス */
 	@Autowired
 	protected HumanInfoService service;
 
