@@ -23,7 +23,7 @@ public class HumanInfoController {
 	@RequestMapping("humanFeature")
 	private String humanFeature(@RequestBody HumanInfoForm request) {
 
-		// DBから名前に基く情報を取得して返す
+		// DBから名前に基く情報を取得して返却
 		return service.judgeHuman(request);
 	}
 
